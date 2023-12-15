@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "baseUrl": "./resources/js",
+    "paths": {
+      "*": ["*", "src/*"]
+    }
+  },
+    "include": [
+        "src/**/*"
+    ],
+  "exclude": [
+    "node_modules"
+  ],
+}
